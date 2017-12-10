@@ -1,0 +1,38 @@
+{
+  "name": "coko-bean",
+  "version": "0.0.2",
+  "description": "Example/boilerplate for coko",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js",
+    "lint:report": "npm run lint -- -f checkstyle --output-file target/checkstyle.xml",
+    "start": "node index"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaskarmelkani/coko-bean.git"
+  },
+  "author": "bhaskarmelkani <melkani.bhaskar@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/bhaskarmelkani/coko-bean/issues"
+  },
+  "homepage": "https://github.com/bhaskarmelkani/coko-bean#readme",
+  "devDependencies": {
+    "eslint": "^4.11.0"
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "koajs",
+    "koa-framweork",
+    "koa-boilerplate",
+    "node-boilerplate",
+    "boilerplate",
+    "framweork"
+  ],
+  "dependencies": {
+    "coko": "~0.0.1-alpha.3"
+  }
+}
