@@ -33,6 +33,6 @@
     "framweork"
   ],
   "dependencies": {
-    "coko": "~0.0.1-alpha.3"
+    "coko": "~1.0.1"
   }
 }
